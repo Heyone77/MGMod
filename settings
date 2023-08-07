@@ -13,6 +13,12 @@
         "min" : 10,
         "max" : 60
       }
+    },
+    "oracle_false_promise": {
+      "damage_reduction_pct":{
+        "min" : 10,
+        "max" : 60
+      }
     }
 
     
@@ -464,7 +470,8 @@
     },
     "invoker_sun_strike": {
       "vision_distance": 1,
-      "vision_duration": 1
+      "vision_duration": 1,
+      "delay": 1
     },
     "invoker_tornado": {
       "end_vision_duration": 1,
